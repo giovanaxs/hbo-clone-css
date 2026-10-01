@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("fonts//gilroy/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("fonts//gilroy/Gilroy-Light.otf");
+}
 * {
     box-sizing: border-box;
 }
@@ -6,6 +15,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #030328;
+    font-family: "Gilroy-Light";
 }
 
 body, a {
@@ -14,6 +24,7 @@ body, a {
 
 a {
     text-decoration: none;
+    font-family: "Gilroy-ExtraBold";
 }
 
 section, div {
