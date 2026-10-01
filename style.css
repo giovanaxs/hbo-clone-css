@@ -27,10 +27,6 @@ a {
     font-family: "Gilroy-ExtraBold";
 }
 
-section, div {
-    border: solid 1px #fff;
-}
-
 #apresentacao {
     display: flex;
     flex-flow: column nowrap;
@@ -61,4 +57,39 @@ section, div {
     background-color: #B441F3;
     border-radius: 40px;
     display: block;
+}
+
+#chamada {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#promocional {
+    max-width: 300px;
+}
+
+#promocional>img {
+    width: 100%;
+}
+
+#acao {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+#acao>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 220px;
+    align-self: center;
+}
+
+#acao>p{
+    font-size: 0.9rem;
+    text-align: center;
 }
